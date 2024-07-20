@@ -4,7 +4,7 @@ BookMyPackage - A responsive tour and travel website built in Django and Python.
 
 ## Description
    
-My-Tourly is a tour and travel website that allows users to discover and book travel packages, hotels, and transportation services with ease. The website features a functional login module and payment gateway for hassle-free booking.
+BookMyPackage is a tour and travel website that allows users to discover and book travel packages, hotels, and transportation services with ease. The website features a functional login module and payment gateway for hassle-free booking.
    
 ## Getting Started 
  
@@ -16,10 +16,10 @@ My-Tourly is a tour and travel website that allows users to discover and book tr
  
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/my-tourly.git`
+1. Clone the repository: `https://github.com/nithinsanthosh10/BookMyPackage`
 2. Install the dependencies: `pip install -r requirements.txt`
 3. Set up the database:
-   * If you're using PostgreSQL, create a new database and update the settings in `mytourly/settings.py` accordingly.
+   * If you're using PostgreSQL, create a new database and update the settings in `bookmypackage/settings.py` accordingly.
    * If you're using SQLite (the default), no further configuration is required.
 4. Run the migrations: `python manage.py migrate`
 5. Create a superuser: `python manage.py createsuperuser`
