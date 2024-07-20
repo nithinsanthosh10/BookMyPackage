@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            color: #2155f4;
+        }
+        p {
+            color: #333;
+        }
+        .button {
+            background-color: #1868f4;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Successful!</h1>
+        <p>Your payment has been successfully processed.</p>
+        <p>Thank you for your purchase.</p>
+        <a href="{% url 'blog:index' %}" class="button">Go to home</a>
+    </div>
+</body>
+</html>
